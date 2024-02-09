@@ -7,9 +7,16 @@ Module: rain
 
 
 def rain(walls):
+    """
+    Calculate the total trapped water between walls.
+    Args:
+    walls (list): list of non-negative integers representing wall heights
+    Returns:
+    int: total trapped water.
+    """
 
     if len(walls) == 0:
-    return 0
+        return 0
 
     water = 0
     n = len(walls)
