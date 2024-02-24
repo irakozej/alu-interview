@@ -1,4 +1,15 @@
+#!/usr/bin/python3
+
+
+"""
+Module: rain
+"""
+
+
 def pascal_triangle(n):
+
+"""this is documentation for the fucntion"""
+
     if n <= 0:
         return []
 
