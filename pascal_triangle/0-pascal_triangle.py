@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 
 
+
 """
-Module: rain
+Module: Pascal's triangle
 """
+
 
 
 def pascal_triangle(n):
